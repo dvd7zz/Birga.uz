@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birga - Ro'yxatdan o'tish</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<!--HEADER SECTION-->
+<header class="header">
+    <nav class="header__nav">
+        <div class="header__logo">
+            <img src="image/birga_icon_f.png" alt="logo">
+        </div>
+        <div class="header__menu">
+            <a href="index.html">Bosh sahifa</a>
+            <a href="contact.html">Aloqa</a>
+        </div>
+        <div class="header__btn">
+            <a href="login.html" class="ll-a">Kirish</a>
+            <button><a href="register.html" class="btn-a">Ro'yhatdan o'tish</a></button>
+        </div>
+    </nav>
+</header>
+<!--/HEADER SECTION-->
+
+<!--REGISTER-->
+    <main class="main-container">
+        <div class="card">
+            <div class="card-header">
+                <h1>Ro'yxatdan o'tish</h1>
+                <p>Birga hamjamiyatiga qo'shiling</p>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <label>To'liq ismingiz</label>
+                    <input type="text" placeholder="John Doe">
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Emailingizni kiriting" class="bg-yellow">
+                </div>
+
+                <div class="form-group">
+                    <label>Parol</label>
+                    <input type="password" placeholder="Parolingizni kiriting" class="bg-yellow password-input">
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label>Kasbingiz</label>
+                        <select>
+                            <option>Tanlang</option>
+                            <option>Dasturchi</option>
+                            <option>Talaba</option>
+                            <option>Biznesmen</option>
+                            <option>Video Montaj</option>
+                            <option>SMM</option>
+                            <option>Dizayner</option>
+                            <option>O'qituvchi</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Yo'nalishingiz</label>
+                        <select>
+                            <option>Tanlang</option>
+                            <option>StartUp</option>
+                            <option>Biznes</option>
+                            <option>Ta'lim</option>
+                            <option>Tijorat</option>
+                            <option>Dasturlash</option>
+                            <option>Content Making</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Ro'yxatdan o'tish</button>
+
+                <div class="card-footer">
+                    Hisobingiz bormi? <a href="#">Kirish</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
