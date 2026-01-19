@@ -3,6 +3,9 @@
     --font: 'Inter', sans-serif;
     --text: #fff;
 }
+*{
+     font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 /*ADVANCED CSS*/
 body {
     margin: 0;
@@ -494,4 +497,5 @@ nav {
       margin-left: 23px;
       margin-right: 0;  
     }
+
 }
