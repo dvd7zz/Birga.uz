@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  body {
+    background: #f5f7fa;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    height: 70px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo-icon {
+    background: #0d6efd;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+  
+  .logo-text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .login-link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .register-btn {
+    background: #0d6efd;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  /* CENTER CARD */
+  .container-login {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-card {
+    background: #fff;
+    width: 380px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  }
+  
+  .login-card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-card p {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 25px;
+  }
+  
+  .login-card label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  .login-card input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    background: #fff;
+  }
+  .login-card input:focus {
+    border: #0d6efd;
+  }
+  .password-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .password-row a {
+    font-size: 13px;
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  .login-card button {
+    width: 100%;
+    padding: 12px;
+    background: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .register-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .register-text a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
